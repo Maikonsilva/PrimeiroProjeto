@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Primeira Página HTML</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+    
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    
+        nav {
+            background-color: #000;
+            padding: 10px;
+        }
+    
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+    
+        nav li {
+            display: inline-table;
+            margin-right: auto;
+                
+        }
+    
+        nav a {
+            text-decoration: none;
+            color: #ffff;
+        }
+    
+        section {
+            margin: 20px;
+        }
+    
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    
+
+    <header>
+        <h1>Bem-vindo à Minha Página</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#secao1">Seção 1</a></li>
+            <li><a href="#secao2">Seção 2</a></li>
+            <li><a href="#secao3">Seção 3</a></li>
+        </ul>
+    </nav>
+<script>
+        // Função JavaScript simples para exibir uma mensagem na página
+        function exibirMensagem (){
+            alert('Olá! Esta é uma mensagem de JavaScript.');
+        }
+</script>
+    <section id="secao1">
+        <h2>Seção 1</h2>
+        <button onclick="exibirMensagem()">Clique para exibir mensagem</button>
+    </section>
+    
+    <section id="secao2">
+        <h2>Seção 2</h2>
+        <p>Este é um parágrafo na seção 2.</p>
+    </section>
+
+    <section id="secao3">
+        <h2>Seção 3</h2>
+        <p>Este é um parágrafo na seção 3.</p>
+    </section>
+
+    <footer>
+        <p>Rodapé da página.</p>
+    </footer>
+    
+       
+</body>
+</html>
